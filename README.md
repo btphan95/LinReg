@@ -1,6 +1,4 @@
-# Machine-Learning
-Machine learning / linear regression
-
+# LinReg on Amazon purchasing data
 
 In this program, I used Python to implement a linear regression of data.
 I used a dataset from the Stanford Large Network Dataset Collection shows a product copurchasing network on Amazon.
@@ -14,7 +12,9 @@ program. Initially, I wanted to separate the data into training data and test da
 the pop function for lists, but the compiler was taking too long to compile. From the Python
 Wiki (https://wiki.python.org/moin/TimeComplexity), I found that the pop function is
 O(n) runtime complexity. So, using this function was not efficient, and I had to use
-something else. In the end, I shuffled the x and y lists, and then separated each list into two
+something else. 
+
+In the end, I shuffled the x and y lists, and then separated each list into two
 chunks. This was O(1) runtime complexity.
 
 
